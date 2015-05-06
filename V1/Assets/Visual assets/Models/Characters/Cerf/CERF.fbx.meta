@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 349f837b5525db84dab3482f49398bd0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arbre1
+    100002: arbre2
+    100004: arbre3
+    100006: //RootNode
+    100008: cerf
+    100010: corne1
+    100012: corne2
+    100014: corne3
+    100016: corne4
+    100018: corne_et_yeux
+    100020: eyes
+    100022: head
+    100024: hips
+    100026: jaw
+    100028: joint28
+    100030: joint29
+    100032: joint3
+    100034: joint30
+    100036: joint31
+    100038: joint32
+    100040: left_arm_elbow
+    100042: left_arm_hand
+    100044: left_arm_homoplate
+    100046: left_arm_shoulder
+    100048: left_arm_wrist
+    100050: left_leg_anckle
+    100052: left_leg_hips
+    100054: left_leg_knee
+    100056: left_leg_knee2
+    100058: left_leg_shoe
+    100060: neck1
+    100062: neck2
+    100064: oeil1
+    100066: oeil2
+    100068: pCylinder26
+    100070: pCylinder27
+    100072: pCylinder28
+    100074: pCylinder29
+    100076: right_leg_anckle
+    100078: right_leg_hips
+    100080: right_leg_knee
+    100082: right_leg_knee2
+    100084: right_leg_shoe
+    100086: spine1
+    100088: tail1
+    100090: tail2
+    400000: arbre1
+    400002: arbre2
+    400004: arbre3
+    400006: //RootNode
+    400008: cerf
+    400010: corne1
+    400012: corne2
+    400014: corne3
+    400016: corne4
+    400018: corne_et_yeux
+    400020: eyes
+    400022: head
+    400024: hips
+    400026: jaw
+    400028: joint28
+    400030: joint29
+    400032: joint3
+    400034: joint30
+    400036: joint31
+    400038: joint32
+    400040: left_arm_elbow
+    400042: left_arm_hand
+    400044: left_arm_homoplate
+    400046: left_arm_shoulder
+    400048: left_arm_wrist
+    400050: left_leg_anckle
+    400052: left_leg_hips
+    400054: left_leg_knee
+    400056: left_leg_knee2
+    400058: left_leg_shoe
+    400060: neck1
+    400062: neck2
+    400064: oeil1
+    400066: oeil2
+    400068: pCylinder26
+    400070: pCylinder27
+    400072: pCylinder28
+    400074: pCylinder29
+    400076: right_leg_anckle
+    400078: right_leg_hips
+    400080: right_leg_knee
+    400082: right_leg_knee2
+    400084: right_leg_shoe
+    400086: spine1
+    400088: tail1
+    400090: tail2
+    4300000: oeil2
+    4300002: oeil1
+    4300004: corne3
+    4300006: corne1
+    4300008: corne2
+    4300010: corne4
+    4300012: cerf
+    4300014: pCylinder26
+    4300016: pCylinder28
+    4300018: pCylinder29
+    4300020: pCylinder27
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cerf
+    13700002: corne1
+    13700004: corne2
+    13700006: corne3
+    13700008: corne4
+    13700010: oeil1
+    13700012: oeil2
+    13700014: pCylinder26
+    13700016: pCylinder27
+    13700018: pCylinder28
+    13700020: pCylinder29
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 61
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cerf
+        weight: 1
+      - path: corne_et_yeux
+        weight: 1
+      - path: corne_et_yeux/corne1
+        weight: 1
+      - path: corne_et_yeux/corne2
+        weight: 1
+      - path: corne_et_yeux/corne3
+        weight: 1
+      - path: corne_et_yeux/corne4
+        weight: 1
+      - path: corne_et_yeux/oeil1
+        weight: 1
+      - path: corne_et_yeux/oeil2
+        weight: 1
+      - path: pCylinder26
+        weight: 1
+      - path: pCylinder27
+        weight: 1
+      - path: pCylinder28
+        weight: 1
+      - path: pCylinder29
+        weight: 1
+      - path: spine1
+        weight: 1
+      - path: spine1/hips
+        weight: 1
+      - path: spine1/hips/left_leg_hips
+        weight: 1
+      - path: spine1/hips/left_leg_hips/left_leg_knee
+        weight: 1
+      - path: spine1/hips/left_leg_hips/left_leg_knee/left_leg_knee2
+        weight: 1
+      - path: spine1/hips/left_leg_hips/left_leg_knee/left_leg_knee2/left_leg_anckle
+        weight: 1
+      - path: spine1/hips/left_leg_hips/left_leg_knee/left_leg_knee2/left_leg_anckle/left_leg_shoe
+        weight: 1
+      - path: spine1/hips/right_leg_hips
+        weight: 1
+      - path: spine1/hips/right_leg_hips/right_leg_knee
+        weight: 1
+      - path: spine1/hips/right_leg_hips/right_leg_knee/right_leg_knee2
+        weight: 1
+      - path: spine1/hips/right_leg_hips/right_leg_knee/right_leg_knee2/right_leg_anckle
+        weight: 1
+      - path: spine1/hips/right_leg_hips/right_leg_knee/right_leg_knee2/right_leg_anckle/right_leg_shoe
+        weight: 1
+      - path: spine1/hips/tail1
+        weight: 1
+      - path: spine1/hips/tail1/tail2
+        weight: 1
+      - path: spine1/joint3
+        weight: 1
+      - path: spine1/joint3/joint28
+        weight: 1
+      - path: spine1/joint3/joint28/joint29
+        weight: 1
+      - path: spine1/joint3/joint28/joint29/joint30
+        weight: 1
+      - path: spine1/joint3/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: spine1/joint3/joint28/joint29/joint30/joint31/joint32
+        weight: 1
+      - path: spine1/joint3/left_arm_homoplate
+        weight: 1
+      - path: spine1/joint3/left_arm_homoplate/left_arm_shoulder
+        weight: 1
+      - path: spine1/joint3/left_arm_homoplate/left_arm_shoulder/left_arm_elbow
+        weight: 1
+      - path: spine1/joint3/left_arm_homoplate/left_arm_shoulder/left_arm_elbow/left_arm_wrist
+        weight: 1
+      - path: spine1/joint3/left_arm_homoplate/left_arm_shoulder/left_arm_elbow/left_arm_wrist/left_arm_hand
+        weight: 1
+      - path: spine1/joint3/neck1
+        weight: 1
+      - path: spine1/joint3/neck1/neck2
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head/arbre1
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head/arbre1/arbre2
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head/arbre1/arbre2/arbre3
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head/eyes
+        weight: 1
+      - path: spine1/joint3/neck1/neck2/head/eyes/jaw
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0350000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
